@@ -70,3 +70,44 @@ Content-Type: application/json
   "watermark_id": "WMK-0987"
 }
 ```
+
+-----
+
+3. Audit & Logging Rules
+Each high-risk request must record:
+
+user_id, payment_ref, timestamp
+
+input_hash, output_hash
+
+watermark_id, audit_id
+
+Logs are retained for 12 months (minimum).
+
+Abnormal patterns (e.g., mass cloning, blacklisted keywords) trigger manual review.
+
+4. Enforcement & Penalties
+🚫 Unauthorized use → immediate suspension + investigation.
+
+🚫 Removal/bypass of watermarking → permanent ban + legal escalation.
+
+🚫 Fraudulent KYC or stolen payment credentials → report to financial institutions.
+
+5. User Education
+UI must display:
+
+⚠️ Warning before each high-risk generation:
+
+“Impersonation without consent may be illegal. You are accountable for all generated content.”
+
+✅ Checkbox: “I confirm I have legal right to use this likeness.”
+
+6. Review Cycle
+Policy updated every 6 months to align with:
+
+Legal regulations
+
+New AI risks (voice spoofing, biometric bypass)
+
+Community feedback
+
