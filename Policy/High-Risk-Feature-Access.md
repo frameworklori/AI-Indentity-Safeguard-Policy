@@ -73,7 +73,7 @@ Content-Type: application/json
 
 -----
 
-3. Audit & Logging Rules
+## 3. Audit & Logging Rules
 Each high-risk request must record:
 
 user_id, payment_ref, timestamp
@@ -86,14 +86,14 @@ Logs are retained for 12 months (minimum).
 
 Abnormal patterns (e.g., mass cloning, blacklisted keywords) trigger manual review.
 
-4. Enforcement & Penalties
+## 4. Enforcement & Penalties
 🚫 Unauthorized use → immediate suspension + investigation.
 
 🚫 Removal/bypass of watermarking → permanent ban + legal escalation.
 
 🚫 Fraudulent KYC or stolen payment credentials → report to financial institutions.
 
-5. User Education
+## 5. User Education
 UI must display:
 
 ⚠️ Warning before each high-risk generation:
