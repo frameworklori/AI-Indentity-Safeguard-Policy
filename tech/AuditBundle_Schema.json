@@ -1,1 +1,20 @@
 
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"title": "Audit Bundle Schema",
+"description": "Defines the audit log structure for high-risk AI generation requests.",
+"type": "object",
+"properties": {
+"audit_id": { "type": "string", "description": "Unique audit reference ID" },
+"timestamp": { "type": "string", "format": "date-time" },
+"user_id": { "type": "string", "description": "Platform user identifier" },
+"payment_ref": { "type": "string", "description": "Billing or transaction ID" },
+"input_hash": { "type": "string", "description": "SHA256 hash of input media" },
+"output_hash": { "type": "string", "description": "SHA256 hash of generated output" },
+"feature_scope": { "type": "string", "enum": ["low_risk", "high_risk"] },
+"watermark_id": { "type": "string", "description": "Embedded watermark reference" },
+"consent_proof": { "type": "string", "description": "ID of consent document if third-party likeness used" },
+"ip_address": { "type": "string", "description": "Request origin IP address" }
+},
+"required": ["audit_id", "timestamp", "user_id", "payment_ref", "input_hash", "output_hash", "feature_scope", "watermark_id"]
+}
