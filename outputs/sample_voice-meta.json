@@ -1,1 +1,12 @@
-
+{
+"audit_id": "AUD-2025-09-26-001",
+"timestamp": "2025-09-26T14:30:00Z",
+"user_id": "user_12345",
+"payment_ref": "TXN-987654321",
+"input_hash": "4d2c6f7e8e12a3b90fa8d5f31a2c4b89e3f5c1dce8f17a9d3cba45ed62a1c2b3",
+"output_hash": "b8e25e5a9c0d77ab2c58efc4d8d8f1c2f6789e1d9e4a7b9c6f2d5c7e3a2b1d4f",
+"feature_scope": "high_risk",
+"watermark_id": "WMK-2025-0001",
+"consent_proof": "DOC-Consent-2025-09-25",
+"ip_address": "203.0.113.45"
+}
