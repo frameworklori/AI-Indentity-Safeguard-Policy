@@ -16,59 +16,57 @@ This document defines the **access rules and safeguards** for AI functions that 
 ## 2. API Flow (Example)
 
 ### Request
+
 ```http
 POST /v1/generate/face-swap
 Authorization: Bearer <user_token>
 X-Feature-Scope: high_risk
-Body: {
-"input_image": "<hash>",
-"target_face": "<hash>",
-"consent_proof": "<doc_id>"
+Content-Type: application/json
+
+{
+  "input_image": "<hash>",
+  "target_face": "<hash>",
+  "consent_proof": "<doc_id>"
 }
+```
 
------
-
+---
 
 ### Paid + Verified Tier
-- Requirements:
+
+**Requirements:**
 1. **KYC Verification** (passport, government ID, or enterprise registration).
 2. **Active Payment Subscription** (credit card / verified enterprise billing).
 3. **Consent Statement**: User must digitally sign agreement acknowledging legal responsibilities.
 
-- Permissions:
+**Permissions:**
 - ✅ Access to **high-risk functions** (face-swap, synthetic voice, identity recreation).
 - ✅ Ability to request **template unlocking** for custom likeness generation.
 - ✅ Audit logs linked to account & payment ID.
 
-- Restrictions:
+**Restrictions:**
 - ❌ Mass-generation (>50 outputs/hour) triggers automatic review.
 - ❌ Uploading third-party likeness requires **consent proof** (e.g., signed authorization).
 
 ---
-Validation Steps
-Verify user_token belongs to a Paid + Verified account.
 
-Check if X-Feature-Scope = high_risk and user has scope enabled.
+### Validation Steps
 
-Validate consent_proof if a third-party likeness is detected.
+- Verify `user_token` belongs to a Paid + Verified account.
+- Check if `X-Feature-Scope = high_risk` and user has scope enabled.
+- Validate `consent_proof` if a third-party likeness is detected.
+- Generate output with embedded `watermark_id` + `audit_id`.
+- Store request/response metadata in audit log.
 
-Generate output with embedded watermark_id + audit_id.
+---
 
-Store request/response metadata in audit log.
+### Response
 
-
-
-Response
-
+```json
 {
-"status": "success",
-"output_url": "https://cdn.ai/output/12345.mp4",
-"audit_id": "AUD-2025-09-26-XYZ",
-"watermark_id": "WMK-0987"
+  "status": "success",
+  "output_url": "https://cdn.ai/output/12345.mp4",
+  "audit_id": "AUD-2025-09-26-XYZ",
+  "watermark_id": "WMK-0987"
 }
-
-
-
-
-
-
+```
