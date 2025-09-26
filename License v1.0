@@ -1,0 +1,24 @@
+LORI Semantic Safeguard License v1.0
+-----------------------------------
+
+This repository is licensed under a **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license, with the following additional safeguard clauses:
+
+1. Identity Manipulation Restriction
+- Any AI function that alters or replicates a person’s biometric identity (face, voice, or likeness) must only be deployed with verified user access (KYC + payment traceability).
+- Unauthorized or anonymous deployment of these functions is strictly prohibited.
+
+2. Attribution & Integrity
+- All reuse of this repo’s materials must include clear attribution:
+“Based on AI-Identity-Safeguard-Policy, © LORI Framework 2025.”
+- Safeguard mechanisms (e.g., watermarking, logging, access restrictions) may not be removed, disabled, or bypassed.
+
+3. Non-Commercial Use
+- The open resource materials may be used freely for research, education, or policy development.
+- Commercial deployment requires a separate licensing agreement with the LORI Framework maintainers.
+
+4. Liability Disclaimer
+- The maintainers of this repository assume no liability for misuse of AI technologies outside these safeguard terms.
+
+---
+
+SPDX-License-Identifier: CC-BY-NC-4.0
