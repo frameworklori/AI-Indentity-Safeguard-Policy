@@ -1,1 +1,30 @@
-
+# package.json
+{
+  "name": "lori-ai-safeguard-api",
+  "version": "1.0.0",
+  "description": "LORI AI Identify Safeguard API - verification and integrity enforcement layer",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-esm src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "stripe": "^16.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "author": "LORI Framework",
+  "license": "LORI Private Semantic Module License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frameworklori/lori-ai-safeguard"
+  }
+}
