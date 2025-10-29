@@ -1,4 +1,4 @@
-#  LICENSE_LORI_100_AI-Identity.md
+#  LICENSE_LORI_100_AI-Identity
 
 LORI Private Semantic License v1.0 (All Rights Reserved – 100% Original Authorship)
 
