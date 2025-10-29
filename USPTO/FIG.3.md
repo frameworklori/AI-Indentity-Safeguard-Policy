@@ -1,8 +1,7 @@
 # FIG.3 – Audit & Revocation Flow (LORI Safeguard)
 
-
 ## Figure Description
-FIG.3 顯示 LORI Safeguard 的「稽核與撤權流程」：使用者先通過 3DS/AVS（302），取得限額 Token（303），之後行為被持續監控（304），並由風險引擎（305）計算分數決定擴權（307）、限流或凍結人工審核（306）。若確認詐欺，進入黑名單（308）並撤銷或降級 Token（311）。所有事件（含金流 Webhook/拒付 310）寫入不可變稽核帳（309）。
+FIG.3 顯示 LORI Safeguard 的「稽核與撤權流程」：使用者先通過 3DS/AVS（302），取得限額 Token（303），之後行為被持續監控（304），並由風險引擎（305）計算風險分數，若超過門檻則進行凍結與人工審核（306），如確認詐欺則黑名單處理（308），所有操作記錄於不可竄改帳本（309），若有退款/爭議則回饋至風險引擎（310），Token 可撤銷或降權（311）。
 
 ## Reference Numerals
 - **(301)** Payment & ID Verification  
@@ -23,44 +22,43 @@ FIG.3 顯示 LORI Safeguard 的「稽核與撤權流程」：使用者先通過 
 - 可在 `docs/IP_Execution_Record.md` 的 §6「Immutable Audit and Revocation Flow」段落連結本圖。
 ----
 
-> Reference Numerals: (301) Payment & ID, (302) 3DS/AVS Gate, (303) Limited Token, (304) Behavioral Monitor, (305) Risk Engine, (306) Freeze & Human Audit, (307) Access Expansion, (308) Blacklist, (309) Evidence Ledger, (310) Chargeback/Webhook, (311) Token Revocation
+> Reference Numerals: (301) Payment & ID, (302) 3DS/AVS Gate, (303) Limited Token, (304) Behavioral Monitor, (305) Risk Engine, (306) Freeze & Human Audit, (307) Access Expansion, (308) Blacklist, (309) Immutable Ledger, (310) Payment Webhook/Chargeback, (311) Token Revocation/Scope Downgrade
 
 ```mermaid
 flowchart TD
     %% --- LORI FIG.3 Audit & Revocation Flow ---
-    A[**(301) User Payment & ID Verification**] --> B{**(302) 3D Secure + AVS Passed?**}
+    A["**(301) User Payment & ID Verification**"] --> B{"**(302) 3D Secure + AVS Passed?**"}
 
-    B -- No --> X[Reject / Manual Review]
-    B -- Yes --> C[**(303) Issue Limited API Token**]
+    B -- "No" --> X["Reject / Manual Review"]
+    B -- "Yes" --> C["**(303) Issue Limited API Token**"]
 
     %% Continuous monitoring
-    C --> D[**(304) Behavioral Monitor**]
-    D --> E[**(305) Risk Engine (Score 0–100)**]
+    C --> D["**(304) Behavioral Monitor**"]
+    D --> E["**(305) Risk Engine (Score 0–100)**"]
 
     %% Decisions
-    E -->|Score < Threshold| F[**(307) Gradual Access Expansion**]
-    E -->|Threshold ≤ Score < Hard Cap| L[Limit Quota]
-    E -->|Score ≥ Hard Cap| G[**(306) Freeze Account + Human Audit**]
+    E -- "Score < Threshold" --> F["**(307) Gradual Access Expansion**"]
+    E -- "Threshold ≤ Score < Hard Cap" --> L["Limit Quota"]
+    E -- "Score ≥ Hard Cap" --> G["**(306) Freeze Account + Human Audit**"]
 
     %% Outcomes
-    G -->|Fraud Confirmed| H[**(308) Blacklist Entity / Device / Payment**]
-    G -->|No Fraud| R[Reinstate w/ Notes]
+    G -- "Fraud Confirmed" --> H["**(308) Blacklist Entity / Device / Payment**"]
+    G -- "No Fraud" --> R["Reinstate w/ Notes"]
 
     %% Evidence & Webhook
-    A -. write .-> J[**(309) Immutable Evidence Ledger**]
-    C -. write .-> J
-    D -. write .-> J
-    E -. write .-> J
-    G -. write .-> J
-    H -. write .-> J
-    R -. write .-> J
+    A -.-> J["**(309) Immutable Evidence Ledger**"]
+    C -.-> J
+    D -.-> J
+    E -.-> J
+    G -.-> J
+    H -.-> J
+    R -.-> J
 
     %% Chargebacks & webhooks feed back into risk
-    W[**(310) Payment Webhook / Chargeback Event**] --> E
+    W["**(310) Payment Webhook / Chargeback Event**"] --> E
 
     %% Token lifecycle
-    L -. flag .-> T[**(311) Token Revocation / Scope Downgrade**]
+    L -. "flag" .-> T["**(311) Token Revocation / Scope Downgrade**"]
     G --> T
     H --> T
-
-
+```
