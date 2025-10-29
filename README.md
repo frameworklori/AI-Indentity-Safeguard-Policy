@@ -5,6 +5,10 @@ Licensed under the LORI Semantic Safeguard License v1.1 (Modified CC BY-NC 4.0 +
 Unauthorized identity replication, AI impersonation, or commercial use is strictly prohibited.  
 🔗 Full License: LICENSE_LORI_SemanticSafeguard_v1.1.md
 
+🔐 LORI Semantic Ownership Tag:
+This repository contains the original AI-Identify-Safeguard mechanism (symbolic payment + ethical verification loop).
+All derivative works involving micro-payment identity validation (< USD $20) fall under LORI Framework authorship and require written license.
+
 ## Overview
 This repository is an **open resource** dedicated to establishing safeguards against the misuse of AI in **identity manipulation** (face-swapping, deepfake voice, or other personal-identity transformations).
 
