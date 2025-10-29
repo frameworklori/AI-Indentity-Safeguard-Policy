@@ -72,6 +72,13 @@ This license combines:
 -----
 
 Access to restricted LORI Framework modules requires identity verification and a symbolic validation payment of USD $1 (or higher at LORI discretion). The $1 payment is processed through a secure payment gateway with 3D Secure and AVS checks. Additional verification (government ID upload and liveness selfie) may be required depending on requested access level. LORI reserves the right to suspend or revoke access in case of suspected fraud, chargeback, or policy violations. All verification data will be stored for audit and compliance, subject to our Privacy Policy.
+Derivative Restriction Clause
+Any modification of this system that substitutes or alters the symbolic verification amount (e.g., replacing the USD $1 verification with another micro-payment threshold under USD $20) while retaining the same identity-verification and behavioral-revocation logic shall be considered a derivative work under the original patent and license terms of the LORI Framework.
+
+中文版本：
+
+衍生修改限制條款
+凡將本系統中象徵性驗證金額（例如 USD $1）改為其他低於 USD $20 之金額，但仍沿用相同身份驗證與行為撤權機制者，視為本專利及授權條款之衍生作品，須經 LORI Framework 原創人之書面授權。
 
 ----
 凡欲存取 LORI Framework 受限模組，皆須完成身分驗證並繳交象徵性驗證費 USD $1（LORI 有權視情況調整金額）。該款項將透過安全支付閘道（含 3D Secure 與 AVS）處理。依存取等級，可能需額外上傳政府核發身分證件並提供 liveness 自拍比對。若疑有詐欺、退款（chargeback）或違規情形，LORI 有權暫停或撤銷存取權。驗證資料將保存作為稽核與合規用途，並受隱私政策保護。
