@@ -49,6 +49,13 @@ The numbering reflects verification hierarchy rather than chronological order.
 (204) indicates the fallback tier (lowest symbolic level), while (205) is an external escalation node defined in FIG.3.
 This structure intentionally visualizes downgrade flow rather than upgrade path, aligning with the LORI Safeguard philosophy of “trust-by-proof, not privilege-by-default.”
 
+---
+FIG. 2 – Tiered Verification Process (LORI Safeguard)
+Verification operates through four tiers: corporate, KYC + behavioral, symbolic, and Tier 0.
+The risk engine (205) monitors for abnormal behavior. Any flag triggers an automatic downgrade path (↘) toward Tier 0, where access is limited and manual review is required as described in FIG. 3.
+This hierarchical design ensures progressive trust validation while maintaining a reversible safety mechanism.
+
+
 
 
  
