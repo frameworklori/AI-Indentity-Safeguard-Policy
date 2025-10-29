@@ -36,4 +36,10 @@ Escalation Path
 Risk Engine
 連動 FIG.3 的評分與撤權邏輯
 
+<text x="50%" y="98%" text-anchor="middle"
+      font-size="12" font-family="Arial" fill="rgba(80,80,80,0.4)">
+  LORI FRAMEWORK © 2025 – ETHICAL SYSTEM ORIGINAL WATERMARK
+</text>
+
+
 
