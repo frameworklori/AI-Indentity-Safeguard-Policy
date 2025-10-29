@@ -42,4 +42,19 @@ Risk Engine
 </text>
 
 
+-----
+Why numbering sequence (203→202→201→204→205) is intentional
+The numbering reflects verification hierarchy rather than chronological order.
+(203)–(201) represent descending trust levels (corporate → behavioral → symbolic).
+(204) indicates the fallback tier (lowest symbolic level), while (205) is an external escalation node defined in FIG.3.
+This structure intentionally visualizes downgrade flow rather than upgrade path, aligning with the LORI Safeguard philosophy of “trust-by-proof, not privilege-by-default.”
+
+
+
+ 
+
+
+
+ 
+
 
