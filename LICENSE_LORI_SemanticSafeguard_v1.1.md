@@ -1,4 +1,4 @@
-## LORI Semantic Safeguard License v1.1
+# LORI Semantic Safeguard License v1.1
 
 (Modified Creative Commons BY-NC 4.0 + LORI Clause)
 
