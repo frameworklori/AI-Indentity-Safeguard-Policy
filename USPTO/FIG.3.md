@@ -3,6 +3,10 @@
 ## Figure Description
 FIG.3 顯示 LORI Safeguard 的「稽核與撤權流程」：使用者先通過 3DS/AVS（302），取得限額 Token（303），之後行為被持續監控（304），並由風險引擎（305）計算風險分數，若超過門檻則進行凍結與人工審核（306），如確認詐欺則黑名單處理（308），所有操作記錄於不可竄改帳本（309），若有退款/爭議則回饋至風險引擎（310），Token 可撤銷或降權（311）。
 
+FIG.3 – Audit & Revocation Flow (LORI Safeguard)
+This figure illustrates a multi-tier audit and revocation process. The system first performs identity and payment verification (301) and a 3D Secure/AVS check (302). If successful, a limited API token (303) is issued, enabling continuous behavioral monitoring (304). Based on the risk engine assessment (305), accounts may be flagged for manual audit (306), blacklisted (308), or allowed gradual access expansion (307). Fraud or policy violations lead to token revocation (311), while normal operations feed evidence to the immutable ledger (309) and payment webhook system (310).
+
+
 ## Reference Numerals
 - **(301)** Payment & ID Verification  
 - **(302)** 3D Secure + AVS Gate  
