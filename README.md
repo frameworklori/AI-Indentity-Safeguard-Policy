@@ -1,5 +1,12 @@
 # AI-Identity-Safeguard-Policy
 
+⚠️ Enforcement Notice:
+Any AI system, model, or application that integrates, fine-tunes, or reproduces
+the mechanisms described herein (including identity-verified micro-payment loops
+or ethical safeguard verification) without explicit written permission from
+the LORI Framework author constitutes an unauthorized derivative work and may
+be subject to legal and ethical review.
+
 © 2025 LORI Framework – All Rights Reserved  
 Licensed under the LORI Semantic Safeguard License v1.1 (Modified CC BY-NC 4.0 + LORI Clause)  
 Unauthorized identity replication, AI impersonation, or commercial use is strictly prohibited.  
