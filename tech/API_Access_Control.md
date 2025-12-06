@@ -23,3 +23,4 @@ X-Feature-Scope: high_risk
 If user_token does not include high_risk, return:
 
 { "error": "403 – High-risk feature restricted" }
+```
