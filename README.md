@@ -3,6 +3,7 @@
 ## Original Project Record
 
 - Original creation date and time: 2025-12-06T09:33:12Z
+- Original creator: Lori-Framework
 - Repository: AI-Indentity-Safeguard-Policy
 - Content type: AI identity safeguard policy and enforcement framework
 
