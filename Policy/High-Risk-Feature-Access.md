@@ -7,9 +7,9 @@ This document defines the **access rules and safeguards** for AI functions that 
 ## 1. Access Levels
 
 ### Free Tier (Open Use)
-- ✅ Allowed: Low-risk AI features (artistic filters, cartoonization, style transfer, fictional characters).
-- ❌ Not Allowed: Face-swapping, deepfake voice, or any function that replicates **real people’s identity**.
-- 🔒 Technical Restriction: API endpoints for high-risk functions return `403 – Restricted to verified accounts`.
+-  Allowed: Low-risk AI features (artistic filters, cartoonization, style transfer, fictional characters).
+-  Not Allowed: Face-swapping, deepfake voice, or any function that replicates **real people’s identity**.
+-  Technical Restriction: API endpoints for high-risk functions return `403 – Restricted to verified accounts`.
 
 ---
 
@@ -40,13 +40,13 @@ Content-Type: application/json
 3. **Consent Statement**: User must digitally sign agreement acknowledging legal responsibilities.
 
 **Permissions:**
-- ✅ Access to **high-risk functions** (face-swap, synthetic voice, identity recreation).
-- ✅ Ability to request **template unlocking** for custom likeness generation.
-- ✅ Audit logs linked to account & payment ID.
+-  Access to **high-risk functions** (face-swap, synthetic voice, identity recreation).
+-  Ability to request **template unlocking** for custom likeness generation.
+-  Audit logs linked to account & payment ID.
 
 **Restrictions:**
-- ❌ Mass-generation (>50 outputs/hour) triggers automatic review.
-- ❌ Uploading third-party likeness requires **consent proof** (e.g., signed authorization).
+-  Mass-generation (>50 outputs/hour) triggers automatic review.
+-  Uploading third-party likeness requires **consent proof** (e.g., signed authorization).
 
 ---
 
@@ -87,20 +87,20 @@ Logs are retained for 12 months (minimum).
 Abnormal patterns (e.g., mass cloning, blacklisted keywords) trigger manual review.
 
 ## 4. Enforcement & Penalties
-🚫 Unauthorized use → immediate suspension + investigation.
+Unauthorized use → immediate suspension + investigation.
 
-🚫 Removal/bypass of watermarking → permanent ban + legal escalation.
+Removal/bypass of watermarking → permanent ban + legal escalation.
 
-🚫 Fraudulent KYC or stolen payment credentials → report to financial institutions.
+Fraudulent KYC or stolen payment credentials → report to financial institutions.
 
 ## 5. User Education
 UI must display:
 
-⚠️ Warning before each high-risk generation:
+Warning before each high-risk generation:
 
 “Impersonation without consent may be illegal. You are accountable for all generated content.”
 
-✅ Checkbox: “I confirm I have legal right to use this likeness.”
+Checkbox: “I confirm I have legal right to use this likeness.”
 
 6. Review Cycle
 Policy updated every 6 months to align with:

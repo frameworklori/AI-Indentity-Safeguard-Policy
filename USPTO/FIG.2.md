@@ -1,6 +1,6 @@
-🧭 FIG.2 – Tier Verification Flow
+FIG.2 – Tier Verification Flow
 
-📄 語義敘述（Description）
+語義敘述（Description）
 
 FIG.2 presents the tiered verification process used by the LORI Safeguard Framework to differentiate between levels of identity assurance and access privileges.
 The system operates through a progressive three-tier model:
@@ -15,7 +15,7 @@ Any suspicious behavior detected by the risk engine (205) triggers a downgrade, 
 
 The flow ensures that every user or AI progresses through measurable integrity checkpoints, guaranteeing that higher privileges correspond to stronger verification and accountability.
 
-📘 Reference Numerals
+Reference Numerals
 
 編號
 階層 / 元件
@@ -38,7 +38,7 @@ Risk Engine
 
 <text x="50%" y="98%" text-anchor="middle"
       font-size="12" font-family="Arial" fill="rgba(80,80,80,0.4)">
-  LORI FRAMEWORK © 2025 – ETHICAL SYSTEM ORIGINAL WATERMARK
+  LORI FRAMEWORK Copyright 2025 – ETHICAL SYSTEM ORIGINAL WATERMARK
 </text>
 
 
@@ -52,7 +52,7 @@ This structure intentionally visualizes downgrade flow rather than upgrade path,
 ---
 FIG. 2 – Tiered Verification Process (LORI Safeguard)
 Verification operates through four tiers: corporate, KYC + behavioral, symbolic, and Tier 0.
-The risk engine (205) monitors for abnormal behavior. Any flag triggers an automatic downgrade path (↘) toward Tier 0, where access is limited and manual review is required as described in FIG. 3.
+The risk engine (205) monitors for abnormal behavior. Any flag triggers an automatic downgrade path toward Tier 0, where access is limited and manual review is required as described in FIG. 3.
 This hierarchical design ensures progressive trust validation while maintaining a reversible safety mechanism.
 
 

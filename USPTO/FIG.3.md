@@ -73,5 +73,5 @@ flowchart TD
 
 <text x="50%" y="98%" text-anchor="middle"
       font-size="12" font-family="Arial" fill="rgba(80,80,80,0.4)">
-  LORI FRAMEWORK © 2025 – ETHICAL SYSTEM ORIGINAL WATERMARK
+  LORI FRAMEWORK Copyright 2025 – ETHICAL SYSTEM ORIGINAL WATERMARK
 </text>

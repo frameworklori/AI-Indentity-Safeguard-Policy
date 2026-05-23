@@ -1,4 +1,4 @@
-## 📄 `examples/Fraud_Case_Study_01.md`
+##  `examples/Fraud_Case_Study_01.md`
 ```markdown
 # Fraud Case Study 01 – AI Voice Scam
 

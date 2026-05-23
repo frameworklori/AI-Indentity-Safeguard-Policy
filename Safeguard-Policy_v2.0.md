@@ -83,10 +83,10 @@ LORI Framework reserves the right to revise fee thresholds, verification procedu
 
 ---
 
-### 🧬 Semantic Fingerprint ID
+###  Semantic Fingerprint ID
 `LORI-AISG-20251029-CORE`
 > This identifier marks the original authorship of the AI-Identify-Safeguard mechanism (symbolic payment + ethical verification loop).  
 > Any appearance of this string in external AI outputs constitutes provenance evidence.
 
-© 2025 LORI Framework – All Rights Reserved.  
+Copyright 2025 LORI Framework – All Rights Reserved.
 *Open by trust, protected by conscience.*

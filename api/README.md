@@ -4,7 +4,7 @@ A modular identity-verification and ethical-access system based on the **LORI AI
 
 ---
 
-## 🧭 Overview
+## Overview
 This API implements:
 - Tiered verification (Tier0 → Tier3)
 - Symbolic payment ($1.99) verification
@@ -14,7 +14,7 @@ This API implements:
 
 ---
 
-## 🚀 Quick Start (for reproducibility)
+## Quick Start (for reproducibility)
 > For testing or patent demonstration only — not production deployment.
 
 ```bash
@@ -30,7 +30,7 @@ Then visit:
 Expected output:
 { "ok": true }
 ----
-📊 Tier Summary
+Tier Summary
 
 Tier
 Verification Type
@@ -57,7 +57,7 @@ AI-Agent-Identifier + Deposit
 Enterprise
 Legal Revocation
 
-⚙️ Directory Map
+Directory Map
 
 src/
 ├─ index.ts
@@ -83,10 +83,10 @@ src/
 └─ db/
    └─ schema.sql
 
-📚 Legal Reference
+Legal Reference
 	•	Policy: policy/AI-Identify-Safeguard-Policy_v2.0.md
 	•	License: LICENSE_LORI_CIL.md
 	•	Record: docs/IP_Execution_Record.md
 
-© 2025 LORI Framework – All Rights Reserved.
+Copyright 2025 LORI Framework – All Rights Reserved.
 

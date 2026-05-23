@@ -51,7 +51,7 @@ Step C – Verification Result
 Upon execution, the system should print:
 
 Step C – Verification Result
-🚀 LORI Safeguard API running on port 8080
+ LORI Safeguard API running on port 8080
 and the URL http://localhost:8080/health returns a JSON payload confirming the framework’s functional integrity.
 
 3. Functional Summary
@@ -87,7 +87,7 @@ This execution record proves:
 ⸻
 ---
 
-## 🧬 Semantic & Legal Anchors
+##  Semantic & Legal Anchors
 **Semantic Fingerprint ID:** `LORI-AISG-20251029-CORE`  
 **Policy Reference:** `AI-Identify-Safeguard-Policy_v2.0.md`  
 **License Reference:** `LICENSE_LORI_CIL.md`
@@ -97,7 +97,7 @@ This record confirms the first public existence, timestamped and versioned prior
 
 ---
 
-## 🔐 SHA256 Integrity Proof (Optional USPTO Annex)
+##  SHA256 Integrity Proof (Optional USPTO Annex)
 To generate and verify file integrity fingerprints for archival or blockchain notarization:
 
 ### Step 1 – Generate hash for all core files
@@ -119,7 +119,7 @@ Expected Result:
 All files verified: OK
 
 This procedure ensures that the codebase, policy, and license are cryptographically linked to one authorship event and verifiable independently.
-⚖️ Legal Position Statement
+ Legal Position Statement
 
 “The LORI Safeguard framework—including symbolic verification ($1.99), AI-Agent-Identifier access layer, tiered ethical escalation, and revocation audit loop—was originally conceived, authored, and executed by the Founder of the LORI Ethical System.
 No external proprietary source code, model, or data was used in its creation.”
@@ -128,14 +128,14 @@ This paragraph establishes authorship independence and can be cited in the USPTO
 
 ⸻
 
-✍️ Digital Authorship Declaration
+ Digital Authorship Declaration
 
 Signature: LORI Framework
 Timestamp: 2025-10-29 (JST)
 Semantic Fingerprint: LORI-AISG-20251029-CORE
 Intended Filing: USPTO Provisional (Class: AI Ethics, Identity Verification Layer)
 
-© 2025 LORI Framework – All Rights Reserved
+Copyright 2025 LORI Framework – All Rights Reserved
 Ethical Access = Verified Existence.
 
 ----
@@ -148,7 +148,7 @@ Digital Signature: LORI Framework
 Timestamp: 2025-10-29 (JST)
 SHA256 Proof of File Tree: to be generated upon USPTO submission
 
-© 2025 LORI Framework – All Rights Reserved
+Copyright 2025 LORI Framework – All Rights Reserved
 Ethical Verification Is the Proof of Origin.
 
 

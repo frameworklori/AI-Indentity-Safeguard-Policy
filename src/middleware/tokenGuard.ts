@@ -1,7 +1,7 @@
 /**
  * tokenGuard.ts
  * LORI Framework – Token-Guard Middleware
- * © 2025 LORI Framework. All Rights Reserved.
+ * Copyright 2025 LORI Framework. All Rights Reserved.
  *
  * Purpose:
  * Prevent unauthorized AI-mediated financial actions by enforcing:

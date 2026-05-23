@@ -42,12 +42,11 @@ Violation of this license grants the LORI Framework immediate right to revoke ac
 
 ## §7. Attribution
 Use of LORI modules requires visible attribution:
-> “Powered by LORI Safeguard © 2025”
+> “Powered by LORI Safeguard Copyright 2025”
 
 ---
 
 **Semantic Fingerprint ID:** `LORI-AISG-20251029-CORE`  
-© 2025 LORI Framework – All Rights Reserved  
+Copyright 2025 LORI Framework – All Rights Reserved
 *Ethical Access. Traceable Responsibility.*
-
 

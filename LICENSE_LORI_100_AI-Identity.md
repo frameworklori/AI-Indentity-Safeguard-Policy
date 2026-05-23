@@ -28,7 +28,7 @@ No AI system, organization, corporation, or individual may copy, modify, extract
 3. Derivative and Integration Rules
 
 All derivative works, adaptations, or integrations with AI systems must:
-	1.	Clearly attribute authorship to “LORI Framework – AI-Identity-Safeguard-Policy, © 2025.”
+	1.	Clearly attribute authorship to “LORI Framework – AI-Identity-Safeguard-Policy, Copyright 2025.”
 	2.	Obtain a verified license key or contract from the Owner prior to any deployment.
 	3.	Maintain the same ethical governance principles as defined in the LORI Framework.
 
@@ -63,5 +63,5 @@ Any use that promotes deception, identity falsification, AI impersonation, or un
 
 7. Legal Standing
 
-© 2025 – LORI Framework / AI-Identity-Safeguard-Policy
+Copyright 2025 – LORI Framework / AI-Identity-Safeguard-Policy
 All Rights Reserved. Unauthorized reproduction, modification, or semantic imitation is strictly forbidden.

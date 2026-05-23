@@ -6,7 +6,7 @@
 
 ---
 
-## 🌐 1. Policy Overview
+## 1. Policy Overview
 This policy establishes an **Ethical Access Verification Protocol** for all users accessing LORI Framework modules, datasets, or AI endpoints.  
 It ensures that human identity, intent, and ethical responsibility are verified before interaction with sensitive AI systems.
 
@@ -16,7 +16,7 @@ Access to LORI AI modules requires:
 
 ---
 
-## 🔒 2. Purpose
+## 2. Purpose
 To prevent:
 - Unauthorized or anonymous AI usage,
 - Bot-driven abuse,
@@ -27,7 +27,7 @@ The $1 (or higher) symbolic fee represents both **ethical commitment** and **tra
 
 ---
 
-## 💳 3. Verification Tiers
+## 3. Verification Tiers
 
 | Tier | Verification Type | Requirements | Access Level |
 |------|-------------------|---------------|---------------|
@@ -38,7 +38,7 @@ The $1 (or higher) symbolic fee represents both **ethical commitment** and **tra
 
 ---
 
-## 🧠 4. Payment & Anti-Fraud Protections
+## 4. Payment & Anti-Fraud Protections
 All symbolic payments are processed via secure gateways with:
 - **3D Secure (3DS)** and **AVS (Address Verification Service)** checks,  
 - Device fingerprinting and geolocation screening,  
@@ -50,14 +50,14 @@ Refunds or chargebacks will trigger immediate access suspension and manual revie
 
 ---
 
-## 🧾 5. Legal & Compliance Requirements
+## 5. Legal & Compliance Requirements
 - **KYC** (Know Your Customer) and **AML/OFAC** checks for U.S. compliance.  
 - Data retention follows GDPR/CCPA principles—kept only for audit and lawful verification.  
 - Verification records (hashed and timestamped) are immutable under the LORI Ethical Ledger.
 
 ---
 
-## ⚖️ 6. Policy Enforcement
+## 6. Policy Enforcement
 LORI reserves the right to:
 - Suspend or revoke any access suspected of fraud, impersonation, or unethical activity.  
 - Retain or cancel the symbolic payment as a review fee for confirmed misuse.  
@@ -65,7 +65,7 @@ LORI reserves the right to:
 
 ---
 
-## 🧩 7. Symbolic Validation Principle
+## 7. Symbolic Validation Principle
 > “Access is not a right—it is a trust.  
 > The $1 is not a price; it is a proof of human responsibility.”
 
@@ -74,7 +74,7 @@ This validation ensures:
 - The open access spirit remains alive but **bound by ethics and verifiability**.
 
 ---
-📜 8. Privacy and Data Ethics
+ 8. Privacy and Data Ethics
 
 All verification data are:
 	•	Encrypted at rest and in transit,
@@ -83,7 +83,7 @@ All verification data are:
 
 ⸻
 
-🧭 9. Amendment Clause
+ 9. Amendment Clause
 
 LORI Framework reserves the right to adjust payment thresholds, verification layers, or access criteria in response to:
 	•	Escalating AI misuse patterns,
@@ -92,10 +92,10 @@ LORI Framework reserves the right to adjust payment thresholds, verification lay
 
 ⸻
 
-© 2025 LORI Framework – AI Identity Safeguard Division
+Copyright 2025 LORI Framework – AI Identity Safeguard Division
 “Open by trust, protected by conscience.”
 
-## 🔁 10.Audit & Revocation Flow
+## 10.Audit & Revocation Flow
 
 ```mermaid
 flowchart TD

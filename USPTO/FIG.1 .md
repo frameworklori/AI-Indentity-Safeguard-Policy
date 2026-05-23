@@ -1,6 +1,6 @@
-📘 FIG.1 – System Overview
+FIG.1 – System Overview
 
-📄 語義敘述（Description）
+語義敘述（Description）
 
 FIG.1 illustrates the overall architecture of the LORI AI-Identify-Safeguard System, which establishes an ethical access framework for human and artificial intelligence entities.
 The system is composed of six interlinked layers:
@@ -13,7 +13,7 @@ The system is composed of six interlinked layers:
 
 Collectively, these layers enable traceable accountability, protect intellectual property from misuse, and ensure that all AI entities identify themselves before interacting with human-aligned systems.
 
-📘 Reference Numerals
+Reference Numerals
 編號
 元件
 功能說明
@@ -39,5 +39,5 @@ Revocation & Integrity Control
 
 <text x="50%" y="98%" text-anchor="middle"
       font-size="12" font-family="Arial" fill="rgba(80,80,80,0.4)">
-  LORI FRAMEWORK © 2025 – ETHICAL SYSTEM ORIGINAL WATERMARK
+  LORI FRAMEWORK Copyright 2025 – ETHICAL SYSTEM ORIGINAL WATERMARK
 </text>

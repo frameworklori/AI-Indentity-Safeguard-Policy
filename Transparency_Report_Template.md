@@ -32,17 +32,17 @@ It can be adapted for quarterly, semi-annual, or annual reporting cycles.
 ---
 
 ## 4. Enforcement Actions
-- ⚠️ **Warnings issued**: XXX
-- 🚫 **Accounts suspended**: XXX
-- 🛑 **Permanent bans**: XXX
-- 📤 **Reports sent to authorities**: XXX
+-  **Warnings issued**: XXX
+-  **Accounts suspended**: XXX
+-  **Permanent bans**: XXX
+-  **Reports sent to authorities**: XXX
 
 ---
 
 ## 5. Compliance & Safeguards
-- ✅ Audit log retention policy (12 months) in effect.
-- ✅ Watermark verification success rate: XX%.
-- ✅ Consent proof verification rate: XX%.
+-  Audit log retention policy (12 months) in effect.
+-  Watermark verification success rate: XX%.
+-  Consent proof verification rate: XX%.
 
 ---
 

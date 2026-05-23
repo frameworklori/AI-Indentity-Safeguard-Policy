@@ -25,7 +25,7 @@ Wherever the terms of this clause conflict with the base CC license, the LORI Cl
 
 2. Attribution & Integrity (LORI Clause B)
 	1.	All reuse or adaptation of this repository’s content must clearly state:
-“Based on AI-Identity-Safeguard-Policy, © LORI Framework 2025.”
+“Based on AI-Identity-Safeguard-Policy, Copyright LORI Framework 2025.”
 	2.	Safeguard mechanisms (e.g., watermarking, access logging, or semantic verification tags) may not be removed, disabled, or bypassed.
 
 ⸻
@@ -52,15 +52,15 @@ Any use that promotes deception, identity falsification, or unethical surveillan
 Permission
 Condition
 Notes
-✅ View / fork for research
+ View / fork for research
 Must retain full notice
 Non-commercial only
-✅ Cite / quote / discuss
+ Cite / quote / discuss
 Must credit LORI Framework
-⚠️ Commercial use
+ Commercial use
 Requires license agreement
 Royalties apply
-❌ Identity replication without consent
+ Identity replication without consent
 Forbidden
 Clause A violation
 7. Legal Reference
@@ -84,5 +84,5 @@ Any modification of this system that substitutes or alters the symbolic verifica
 凡欲存取 LORI Framework 受限模組，皆須完成身分驗證並繳交象徵性驗證費 USD $1（LORI 有權視情況調整金額）。該款項將透過安全支付閘道（含 3D Secure 與 AVS）處理。依存取等級，可能需額外上傳政府核發身分證件並提供 liveness 自拍比對。若疑有詐欺、退款（chargeback）或違規情形，LORI 有權暫停或撤銷存取權。驗證資料將保存作為稽核與合規用途，並受隱私政策保護。
 
 
-© 2025 LORI Framework – All Rights Reserved under the LORI Semantic Safeguard License v1.1.
+Copyright 2025 LORI Framework – All Rights Reserved under the LORI Semantic Safeguard License v1.1.
 

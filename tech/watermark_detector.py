@@ -3,7 +3,7 @@ watermark_detector.py
 Simple demo script to verify watermark metadata and hash signature
 for AI-generated content.
 
-© 2025 LORI Framework – AI-Identity-Safeguard-Policy
+Copyright 2025 LORI Framework – AI-Identity-Safeguard-Policy
 """
 
 import hashlib
@@ -46,15 +46,15 @@ meta = load_metadata(meta_path)
 required_fields = ["audit_id", "watermark_id", "output_hash"]
 for field in required_fields:
 if field not in meta:
-print(f"❌ Missing field in metadata: {field}")
+print(f" Missing field in metadata: {field}")
 return False
 
 # Compare output_hash with actual file hash
 if meta["output_hash"] != actual_hash:
-print("❌ Hash mismatch! File may have been tampered with.")
+print("Hash mismatch! File may have been tampered with.")
 return False
 
-print("✅ Watermark verified")
+print("Watermark verified")
 print(f"Audit ID: {meta['audit_id']}")
 print(f"Watermark ID: {meta['watermark_id']}")
 return True

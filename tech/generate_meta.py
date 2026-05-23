@@ -2,7 +2,7 @@
 generate_meta.py
 Utility script to generate metadata JSON for AI-generated outputs.
 
-© 2025 LORI Framework – AI-Identity-Safeguard-Policy
+Copyright 2025 LORI Framework – AI-Identity-Safeguard-Policy
 """
 
 import hashlib
@@ -47,7 +47,7 @@ meta_path = file_path + "_meta.json"
 with open(meta_path, "w", encoding="utf-8") as f:
 json.dump(metadata, f, indent=2)
 
-print(f"✅ Metadata generated: {meta_path}")
+print(f"Metadata generated: {meta_path}")
 return meta_path
 
 

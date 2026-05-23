@@ -22,4 +22,4 @@ app.use("/v1/corporate", corporateRouter);
 app.use("/v1/webhooks/stripe", stripeWebhook);
 
 const port = process.env.PORT || 8080;
-app.listen(port, () => console.log(`🚀 LORI Safeguard API running on port ${port}`));
+app.listen(port, () => console.log(`LORI Safeguard API running on port ${port}`));

@@ -44,5 +44,5 @@ Disputes shall be resolved under USPTO and DMCA jurisdiction.
 
 ---
 
-© 2025 LORI Framework – All Rights Reserved.  
+Copyright 2025 LORI Framework – All Rights Reserved.
 *Ethical Access for Humanity, Integrity for AI.*

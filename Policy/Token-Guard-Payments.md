@@ -1,5 +1,5 @@
 # Token-Guard Payments Policy
-© 2025 LORI Framework – All Rights Reserved  
+Copyright 2025 LORI Framework – All Rights Reserved
 Licensed under the LORI Semantic Safeguard License v1.1  
 Unauthorized duplication or use of this material without written consent is strictly prohibited.  
 
@@ -156,4 +156,3 @@ This policy supports the following USPTO documentation:
 	•	Real-time blockchain notarization of consent receipts
 	•	Extension to voice-triggered payments via Zero-Trust-Voice protocol
 	•	Optional coupling with the AI-Curiosity-Gain-Index to detect behavioral drift leading to financial misjudgment.
-
